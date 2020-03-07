@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form>
+        <div>
+          <h1>step <span id="step-indicator">1</span></h1>
+        </div>
+        <div id="step-1" class="steps">
+          <input class="text-inputs " placeholder="name" />
+        </div>
+        <div id="step-2" class="steps">
+          <input class="text-inputs " placeholder="last name" />
+        </div>
+        <div id="step-3" class="steps">
+          <input class="text-inputs " placeholder="email" />
+        </div>
+        <div>
+          <input
+            class="btn"
+            id="back-btn"
+            type="button"
+            value="Back"
+            placeholder="Back"
+          />
+          <input
+            class="btn"
+            id="next-btn"
+            type="button"
+            value="Next"
+            placeholder="Back"
+          />
+          <button id="submit-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
